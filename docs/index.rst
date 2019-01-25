@@ -1,21 +1,61 @@
-.. fdio-firstcut documentation master file, created by
-   sphinx-quickstart on Thu Apr 12 11:02:31 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 ###########################
 FD.io Project Documentation
 ###########################
 
-FD.io Vector Packet Processing (VPP) is a fast, scalable and multi-platform network stack. 
+.. note::
 
-FD.io VPP is, at it's core, a scalable layer 2-4 network stack. 
-It supports integration into both Open Stack and Kubernetes environments. 
-It supports network management features including configuration, counters and sampling. 
-It supports extending with plugins, tracing and debugging. 
-It supports use cases such as vSwitch, vRouter, Gateways, Firewalls and Load Balancers, to name but a few. 
-Finally it is useful both a software development kit or an appliance out of the box. 
+    This page should be developed by Craig and should be accessed @ "docs.fd.io".
+
+.. note::
+    This sphinx version is only so we can visualize the layout of the links. The
+    final version can be in whatever you think is appropriate.
+
+.. note::
+    The text is somewhat accurate.
+
+The Linux Foundation FD.io project is comprised of several sub projects. The
+Vectot Packet Processor (VPP) project is the core technology used with FD.io.
+The Continious System Integration and Test (CSIT) is used to test the code committed
+to FD.io.
+
+The project documentation for each project can be found here.  
+
+
+****
+VPP
+****
 
 .. toctree::
-   :maxdepth: 2
 
+   vpp/index.rst
+
+************************************************
+Continuous System Integration and Testing (CSIT)
+************************************************
+
+`<https://docs.fd.io/csit>`_
+
+*****
+CICN
+*****
+
+`<https://docs.fd.io/cicn>`_
+
+*******
+HC2VPP
+*******
+
+`<https://docs.fd.io/hc2vpp>`_
+
+**********
+Honeycomb
+**********
+
+`<https://docs.fd.io/honeycomb>`_
+
+****
+NSH
+****
+
+`<https://docs.fd.io/nsh_sfc>`_
