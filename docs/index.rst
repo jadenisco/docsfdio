@@ -12,12 +12,12 @@ FD.io Project Documentation
     final version can be in whatever you think is appropriate.
 
 .. note::
-    The text is somewhat accurate.
+    The text is somewhat accurate. Any comments are welcome.
 
-The Linux Foundation FD.io project is comprised of several sub projects. The
-Vectot Packet Processor (VPP) project is the core technology used with FD.io.
-The Continious System Integration and Test (CSIT) is used to test the code committed
-to FD.io.
+The Linux Foundation FD.io project is comprised of several projects. The Vector Packet
+Processor (VPP) project is the core technology. The Continuous System Integration
+and Test (CSIT) project is used for system test. The other projects take advantage of
+these projects.
 
 The project documentation for each project can be found here.  
 
